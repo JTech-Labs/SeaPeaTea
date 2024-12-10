@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=4 format=3 uid="uid://by5gycymvkloe"]
+
+[ext_resource type="Resource" uid="uid://crgpdahjaj" path="res://addons/func_godot/fgd/func_godot_fgd.tres" id="1_u6xmh"]
+[ext_resource type="Script" path="res://addons/func_godot/src/fgd/func_godot_fgd_file.gd" id="2_5j5ft"]
+[ext_resource type="Resource" uid="uid://cdujy35kqiy5j" path="res://entities/cube/cubeFGD.tres" id="2_jqgvx"]
+
+[resource]
+script = ExtResource("2_5j5ft")
+export_file = false
+target_map_editor = 1
+fgd_name = "portal"
+base_fgd_files = Array[Resource]([ExtResource("1_u6xmh")])
+entity_definitions = Array[Resource]([ExtResource("2_jqgvx")])

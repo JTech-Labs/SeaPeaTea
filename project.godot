@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Portal"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Console="*res://addons/console/console.gd"
+
+[dotnet]
+
+project/assembly_name="Portal"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/console/plugin.cfg", "res://addons/func_godot/plugin.cfg")
+
+[physics]
+
+3d/physics_engine="JoltPhysics3D"
+
+[rendering]
+
+occlusion_culling/use_occlusion_culling=true
