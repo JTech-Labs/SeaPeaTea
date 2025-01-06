@@ -178,6 +178,7 @@ font_size = 48
 [node name="PlayerPhantomCamera3D" type="Node3D" parent="PlayerGroup" node_paths=PackedStringArray("follow_target")]
 unique_name_in_owner = true
 transform = Transform3D(0.999858, 0, 0, 0, 0.94884, 0.315632, 0, -0.315637, 0.948825, -2.53871, 2, 9.76232)
+top_level = true
 script = ExtResource("2_y3dy8")
 priority = 10
 follow_mode = 2
