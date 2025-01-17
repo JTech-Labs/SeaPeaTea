@@ -1,12 +1,3 @@
-[gd_scene load_steps=2 format=3 uid="uid://cq10iaub18e54"]
-
-[ext_resource type="Script" path="res://addons/SignalVisualizer/Visualizer/signal_graph_node.gd" id="1_ovklj"]
-
-[node name="SignalGraphNode" type="GraphNode"]
-custom_minimum_size = Vector2(100, 50)
-offset_right = 232.0
-offset_bottom = 54.0
-resizable = true
-script = ExtResource("1_ovklj")
-
-[connection signal="resize_request" from="." to="." method="_on_resize_request"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:6314d2c07c38f3d15cb976b065f2a8b6f2a4e6bb136410e7871b6935717c0c92
+size 431

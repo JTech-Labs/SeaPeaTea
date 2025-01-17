@@ -1,13 +1,3 @@
-[gd_scene load_steps=3 format=3 uid="uid://b55xpykgr3op4"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_kreo5"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_142ad"]
-
-[node name="RigidBody3D" type="RigidBody3D"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = SubResource("BoxMesh_kreo5")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("BoxShape3D_142ad")
+version https://git-lfs.github.com/spec/v1
+oid sha256:72fa452640e83a713ccb4d917b77729363c324cf5beee69d43e905880e97ab4a
+size 417
